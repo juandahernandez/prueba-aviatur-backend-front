@@ -1,0 +1,31 @@
+.pages-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(227, 226, 226);
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+iframe {
+  display: none !important;
+}
+
+.btn-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .btn-menu {
+    display: block;
+    margin: auto;
+    padding: 10px 50px;
+    border: none;
+    border-bottom: 1px solid blue;
+  }
+}
